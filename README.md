@@ -8,4 +8,4 @@ Scripts in this repository are PoC samples that leverage Advanced Hunting API. T
 You need to register Azure AD app to use the Advanced Hunting API.
 API Permissions required for the app are described in this [article.](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api)
 
-Update script appID, app_secret and tenantId variable according to your Azure AD configuration
+In the script update $appID, $app_secret and $tenantId variables according to your Azure AD configuration.
