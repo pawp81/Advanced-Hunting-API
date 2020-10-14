@@ -29,5 +29,5 @@ $body = @"
 }
 "@
 $body
-$requestURI=$resourceAppIdUri+"/api/advancedqueries/run"
+$requestURI=$resourceAppIdUri+"/api/advancedhunting/run"
 Invoke-WebRequest -Uri $requestURI -Headers $headers -Body $body -Method POST -ContentType 'application/json; charset=utf-8'
